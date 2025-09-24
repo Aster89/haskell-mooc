@@ -4,7 +4,7 @@ module Set12Test where
 
 import Mooc.Test
 import Mooc.Th
-import Data.List
+import Data.List (nub, intersect)
 import Data.Monoid
 
 import Test.QuickCheck hiding (Result,Fun,Failure)
